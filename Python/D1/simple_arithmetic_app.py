@@ -1,5 +1,5 @@
 import random
-45
+
 def subtraction_random():
  
 	num1 = random.randrange(1, 7)
