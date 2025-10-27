@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import Math.random();
 
-public class SubtractionQuiz {
+public class RandomSubtraction {
 	public static void main(String[] args) {
 
 	int number1 = (int)(Math.random() * 10);
@@ -21,7 +21,7 @@ if (number1 < number2) {
 
 if (number1 - number2 == answer) {
 
-	System.out.println(number1 + " - " + number2 +28 " should be " + (number1 - number2));
+	System.out.println(number1 + " - " + number2 +28 " is " + (number1 - number2));
 }
 }
 }
