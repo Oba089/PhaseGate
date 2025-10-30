@@ -9,12 +9,12 @@ public class DepreciationValue {
 
 	if (depreciationPerItem <= 0) {
 
-	else if ("Depreciation must be greater than zero.");
+	else ("Depreciation must be greater than zero.");
     	}
-		double totalDepreciation = 0.0;
+		double totalDepreciation = 0;
 		int itemCount = 0;
 
-   	while (totalDepreciation < fixedPrice) {
+   	if (totalDepreciation < fixedPrice) {
 
 		totalDepreciation += depreciationPerItem;
 		itemCount++;
