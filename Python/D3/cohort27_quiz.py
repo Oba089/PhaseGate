@@ -27,18 +27,19 @@ score = 0
 print("Welcome to the appraisal quiz!")
 
 for variable in questions:
-	print(q)
+	print(questions)
 
-for option in q["choices"]:
+for option in questions["choices"]:
 	print(option)
 
 answer = input("Enter your answer (A, B, C, or D): ").upper()
 
-if answer == q["correct_answer"]:
-print("Correct!")
+if answer == questions["correct_answer"]:
+	print("Correct!")
 score += 1
 
-else:
-print(f"Wrong! The correct answer was {q['correct_answer']}")
+#Elif answer != q["wrong_answer"]:
+	#print(f"Wrong! The correct answer was {q['correct_answer']}")
+#else :
 
-print(f"\nYour final score is {score}/{len(questions
+#print(f"\nYour final score is {score}/{len(questions))
