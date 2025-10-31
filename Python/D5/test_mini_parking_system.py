@@ -2,8 +2,6 @@ import unittest
 
 from mini_parking_system_function import parked_car
 
-class TestForMiniParkingSystem(unittest.TestCase):
-
     def test_that_parking_system_rejects_zero(self):
         with self.assertRaises(ValueError):
             parked_car(0)
