@@ -3,7 +3,7 @@ public boolean isCarParked(int car) {
 }
 
 public int getSlotNumber(int car) {
-    return parkingMap.getOrDefault(carId, -1);
+    return parkingMap.getOrDefault(car, -1);
 }
 
 public boolean isSlotFree(int slotNumber) {
