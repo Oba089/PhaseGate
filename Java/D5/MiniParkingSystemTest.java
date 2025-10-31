@@ -3,12 +3,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class MiniParkingSystemTest {
 
-    @BeforeEach
-    public void setUp() {
-        parking = new ParkingSlot();
-    }
-
-
     @Test
     public void testParkCar() {
         parking.parkCar(1);
