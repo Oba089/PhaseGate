@@ -35,9 +35,9 @@ def show_status():
             print(f"Slot {j}: Empty")
     print()
 
-print(park_car(3, "Jeep"))
-print(park_car(3, "Sport Car"))
-print(car_leaving(3))
+print(park_car(4, "Jeep"))
+print(park_car(5, "Sport Car"))
+print(car_leaving(4))
 display_status()
 
 
