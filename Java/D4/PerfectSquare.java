@@ -2,6 +2,8 @@ import java.util.List;
 
 public class PerfectSquare {
 
+	num = (4,9,16,24,49);
+
 	public static boolean arePerfectSquares(List<Integer> numbers) {
 
 	if (numbers == null) {

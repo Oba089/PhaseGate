@@ -11,7 +11,7 @@ public static void palindromeword(String[] words) {
 	
 	for (String word : words) {
 
-	String returnedWord = new StringHolder(word).reverse();
+	String returnedWord = new String(word).reverse();
 
 	boolean isPalindrome = word.equals(returnedWord);
 

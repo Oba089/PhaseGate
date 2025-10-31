@@ -1,5 +1,7 @@
 function isPerfectSquare(num) {
 
+	int = []
+
 	if (num < 0) {
 		return false;
 		}
@@ -8,8 +10,8 @@ function isPerfectSquare(num) {
 	return true;
 	}
 
-	const sqrt = Math.sqrt(num);
-		return sqrt === Math.floor(sqrt);
 	}
+	number = 25
+	console.log
 
 
