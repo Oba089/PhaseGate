@@ -35,7 +35,7 @@ public class LibraryTrackerApp {
                 default:
                     System.out.println("\n  Invalid choice. Please select 1-4.");
             }
-        } ;
+        } 
 
     }
 }
